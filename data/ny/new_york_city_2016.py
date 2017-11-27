@@ -1,4 +1,4 @@
-'''The new_yor_city.py script will take data dowloaded from
+'''The new_york_city.py script will take data dowloaded from
 www1.nyc.gov regading crime data for the city of New York, NY.
 The XLS File contains all crimes. This script will parse out
 the violent crimes only. The idea is to combine all four files
