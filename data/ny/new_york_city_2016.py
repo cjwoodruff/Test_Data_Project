@@ -28,9 +28,6 @@ df.drop(['ROBBERY',
         axis=0, inplace=True)
 df = df.T
 
-#print(df)
-#print(df.info())
-
 # Load the second file and send it to the Data Frame.
 # Perform the necessary drops to get rid of extra data
 # that won't be needed. Finally, Transpose the Data
@@ -49,9 +46,6 @@ df1.drop(['FELONY POSSESSION OF STOLEN PROPERTY',
           'OTHER FELONIES (4)'],
          axis=0, inplace=True)
 df1 = df1.T
-
-#print(df1)
-#print(df1.info())
 
 # Load the third file and send it to the Data Frame.
 # Perform the necessary drops to get rid of extra data
@@ -79,9 +73,6 @@ df2.drop(['MISDEMEANOR POSSESSION OF STOLEN PROPERTY',
           'OTHER MISDEMEANORS (8)'],
          axis=0, inplace=True)
 df2 = df2.T
-
-#print(df2)
-#print(df2.info())
 
 # Join all of the Data Frames together and add another
 # column called 'Violent_Crimes' that takes the total
